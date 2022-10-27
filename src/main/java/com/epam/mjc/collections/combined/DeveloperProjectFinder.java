@@ -34,9 +34,9 @@ public class DeveloperProjectFinder {
             } else {
                 int resCompareByLetter = nameCompany1.compareTo(nameCompany2);
                 if (resCompareByLetter > 0){
-                    result = -1;
-                } else if (resCompareByLetter < 0) {
                     result = 1;
+                } else if (resCompareByLetter < 0) {
+                    result = -1;
                 }
             }
             return result;
